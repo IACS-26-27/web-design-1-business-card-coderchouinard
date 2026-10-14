@@ -1,30 +1,39 @@
 /* RESET: Browsers add space above and below headings and paragraphs.
  * We turn that off so every bit of space on your card is space YOU
  * chose with margin and padding. */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-block: 0;
+
+:root {
+  --main-color: rgb(245, 242, 242);
 }
 
-/* WIREFRAME: Uncomment this to see the outline of every box on your
- * card. (An outline takes up no space, so it won't change your layout.)
- * Comment it back out when you are done. */
-/*
-.card * {
-  outline: 1px dashed red;
+.card {
+  background-color: black;
 }
-*/
+/* AI-generated code starts here */
+/* Student prompt: "Keep my text exactly the same but move it directly into the middle of the card." */
+/* AI helped with this: adjusted the padding and margins so the whole title and slogan sit visually centered without changing the wording. */
+.card {
+  background-color: black;
+}
+.card-front {
+  box-sizing: border-box;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  text-align: center;
+}
 
-/* Your box model card styles go here!
- * Layout with margin, padding, border, width, and height only
- * (no flexbox or grid). */
-.card h1 {
-  /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+.card-front h2 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.1;
+  color: var(--main-color);
 }
+
+.card-front p {
+  margin: 8px 0 0;
+  font-size: 15px;
+  line-height: 1.2;
+  color: var(--main-color);
+}
+
+/* AI-generated code ends here */
