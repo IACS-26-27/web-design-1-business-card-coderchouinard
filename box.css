@@ -12,14 +12,14 @@
 /* AI-generated code starts here */
 /* Student prompt: "Keep my text exactly the same but move it directly into the middle of the card." */
 /* AI helped with this: adjusted the padding and margins so the whole title and slogan sit visually centered without changing the wording. */
-.card {
-  background-color: black;
-}
+
 .card-front {
   box-sizing: border-box;
   padding-top: 35px;
   padding-bottom: 20px;
   text-align: center;
+  background-image: url("images/Constellation.png");
+  background-size: contain;
 }
 
 .card-front h2 {
@@ -27,6 +27,7 @@
   font-size: 30px;
   line-height: 1.1;
   color: var(--main-color);
+  font-family: "Comic Relief", "Shadows Into Light Two";
 }
 
 .card-front p {
@@ -34,6 +35,26 @@
   font-size: 15px;
   line-height: 1.2;
   color: var(--main-color);
+  font-family: "Shadows Into Light Two", "Comic Relief";
 }
 
+
 /* AI-generated code ends here */
+.card-back {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  background-image: url("images/Multiple-Constellations.png");
+  background-size: contain;
+  color: var(--main-color);
+  font-family: "Comic Relief", "Shadows Into Light Two";
+  font-size: 12px;
+}
+
+.card-back footer {
+  padding: 10px;
+  text-align: center;
+  color: var(--main-color);
+  font-family: "Comic Relief", "Shadows Into Light Two";
+  font-size: 12px;
+}
