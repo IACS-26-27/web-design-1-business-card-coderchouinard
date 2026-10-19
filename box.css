@@ -58,3 +58,9 @@
   font-family: "Comic Relief", "Shadows Into Light Two";
   font-size: 12px;
 }
+
+card-footer{
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
