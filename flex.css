@@ -31,6 +31,7 @@ h6 {
   text-align: center;
   aspect-ratio: 1/1;
 }
+
 /* Your flexbox card styles go here! */
 /* AI-generated code starts here */
 
@@ -41,7 +42,7 @@ h6 {
   background-color: #829487;
   border: 2px solid #081b12;
   border-radius: 5px;
-  font-family: "Cantata One", "Asap Sharp";
+  font-family: "Cantata One", "Comfortaa";
   letter-spacing: 0.5px;
 }
 
@@ -65,11 +66,9 @@ h6 {
   min-height: 0;
   margin: 0;
   padding: 6px;
-  background: repeating-linear-gradient(
-    90deg,
-    #245a3a 0 12px,
-    #1b482e 12px 16px
-  );
+  background: repeating-linear-gradient(90deg,
+      #245a3a 0 12px,
+      #1b482e 12px 16px);
   border: 2px solid #081b12;
   border-radius: 3px 3px 14px 14px;
   clip-path: polygon(0 0, 100% 0, 88% 100%, 12% 100%);
@@ -78,7 +77,9 @@ h6 {
 .bin-body p,
 .bin-base p {
   font-size: 13px;
-  font-family: "Asap Sharp", "Cantata One";
+  font-family: "Comfortaa", "Cantata One";
+  display:flex;
+  font-weight: bold;
 }
 
 .bin-base {
@@ -91,13 +92,13 @@ h6 {
 }
 
 .bin-base p {
-  display:flex;
+  display: flex;
   align-items: center;
 }
 
 .bin-wheels {
   display: flex;
-justify-content: end;
+  justify-content: end;
   gap: 4px;
 }
 
@@ -110,9 +111,43 @@ justify-content: end;
   border-radius: 50%;
   box-sizing: border-box;
 }
+
 /* AI-generated code ends here */
 
 /* Honors: styles for each card size, for example:
 .square .card-front {
 }
 */
+.card-back {
+  display: flex;
+  background-image: url("images/Trashbags.png");
+  background-size: contain;
+  border-radius: 8px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  font-size: 13px;
+    font-family: "Comfortaa", "Cantata One";
+    display: flex;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.banner {
+  display: flex;
+  position: absolute;
+  top: 40px;
+  right: -50px;
+  transform: rotate(45deg);
+  background-color: #111111;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+  font-family: "Cantata One", "Comfortaa";
+  color: white;
+  font-size: 10px;
+}
