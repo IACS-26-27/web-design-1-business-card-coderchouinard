@@ -13,13 +13,14 @@ h6 {
 
 
 
- :root {
+:root {
   --main-color: rgb(245, 242, 242);
 }
 
 .card {
   background-color: black;
 }
+
 /* AI-generated code starts here */
 /* Student prompt: "Keep my text exactly the same but move it directly into the middle of the card." */
 /* AI helped with this: adjusted the padding and margins so the whole title and slogan sit visually centered without changing the wording. */
@@ -70,7 +71,7 @@ h6 {
   font-size: 12px;
 }
 
-card-footer{
+.card-footer {
   text-align: center;
   padding-right: 10px;
   padding-left: 10px;

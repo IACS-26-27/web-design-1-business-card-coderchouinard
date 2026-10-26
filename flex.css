@@ -26,7 +26,7 @@ h6 {
   gap: 2px;
   padding: 5px 8px 4px;
   color: #f1f5f2;
-  background-color: #102719;
+  background-color: #0F2818;
   border-radius: 8px;
   text-align: center;
   aspect-ratio: 1/1;
@@ -57,11 +57,11 @@ h6 {
 }
 
 .bin-body {
-  display: flex-start;
+  display: flex;
   flex: 1;
   align-self: center;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 82%;
   min-height: 0;
   margin: 0;
@@ -78,7 +78,7 @@ h6 {
 .bin-base p {
   font-size: 13px;
   font-family: "Comfortaa", "Cantata One";
-  display:flex;
+  display: flex;
   font-weight: bold;
 }
 
@@ -96,22 +96,6 @@ h6 {
   align-items: center;
 }
 
-.bin-wheels {
-  display: flex;
-  justify-content: end;
-  gap: 4px;
-}
-
-.bin-wheels span {
-
-  width: 16px;
-  height: 16px;
-  background-color: #829487;
-  border: 2px solid #111814;
-  border-radius: 50%;
-  box-sizing: border-box;
-}
-
 /* AI-generated code ends here */
 
 /* Honors: styles for each card size, for example:
@@ -121,19 +105,20 @@ h6 {
 .card-back {
   display: flex;
   background-image: url("images/Trashbags.png");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 8px;
   text-align: center;
   overflow: hidden;
   position: relative;
   font-size: 13px;
-    font-family: "Comfortaa", "Cantata One";
-    display: flex;
-    font-weight: bold;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.5;
+  font-family: "Comfortaa", "Cantata One";
+  display: flex;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
 }
 
 .banner {
